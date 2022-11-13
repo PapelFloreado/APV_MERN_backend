@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import bcrypt from "bcrypt";
-import generarId from "../helpers/generarId.js";
+import generarID from "../helpers/generarID.js";
 
 const veterinarioSchema = mongoose.Schema({
   nombre: {
@@ -29,7 +29,7 @@ const veterinarioSchema = mongoose.Schema({
   },
   token: {
     type: String,
-    default: generarId(),
+    default: generarID(),
   },
   confimado: {
     type: Boolean,
