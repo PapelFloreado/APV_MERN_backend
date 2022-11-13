@@ -12,7 +12,7 @@ dotenv.config()
 
 conectarDB()
 
-const dominiosPermitidos = ["http://127.0.0.1:5173"]
+const dominiosPermitidos = ["https://nimble-cassata-b5ec35.netlify.app/"]
 
 const corsOptions = {
     origin: function(origin, callback){
